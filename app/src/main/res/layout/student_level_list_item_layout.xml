@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:id="@+id/tvLevelCounter"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/gray"
+            android:text="@string/_1"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="@font/andika"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/level_name"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/levelName"
+            android:fontFamily="@font/andika"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

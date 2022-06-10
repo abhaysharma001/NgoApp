@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ApplyLeaveActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bMyLeaveApplications"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/andika"
+            android:text="@string/view_my_leave_applications"
+            android:textColor="@color/white" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="@string/apply_for_leave"
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/leave_application"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edReason"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/light_gray"
+            android:fontFamily="@font/andika"
+            android:hint="@string/enter_reason"
+            android:paddingStart="10dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/andika"
+            android:text="@string/date" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/edFrom"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/light_gray"
+                android:fontFamily="@font/andika"
+                android:gravity="center_vertical"
+                android:hint="@string/from"
+                android:paddingStart="10dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/edTo"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:background="@color/light_gray"
+                android:fontFamily="@font/andika"
+                android:gravity="center_vertical"
+                android:hint="@string/to"
+                android:paddingStart="10dp"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/andika"
+            android:text="@string/location_of_leave" />
+
+        <EditText
+            android:id="@+id/edLeaveLocation"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/light_gray"
+            android:fontFamily="@font/andika"
+            android:paddingStart="10dp"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/andika"
+            android:text="@string/description"
+            android:visibility="gone" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/light_gray"
+            android:fontFamily="@font/andika"
+            android:gravity="top|start"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:visibility="gone" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bApplyLeave"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/andika"
+            android:text="@string/apply_for_leave"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</ScrollView>

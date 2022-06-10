@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="3dp"
+    android:layout_height="match_parent"
+    tools:context=".activities.ViewUserReportingActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/search_reports_date_wise"
+        android:textColor="@color/black"
+        android:fontFamily="@font/andika"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="80dp"
+            android:text=""
+            android:gravity="center"
+            android:textSize="12sp"
+            android:id="@+id/tvStartDate"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/light_gray"
+            android:layout_margin="5dp"
+            android:layout_height="35dp"/>
+
+        <TextView
+            android:text="@string/to"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:id="@+id/tvEndDate"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/light_gray"
+            android:layout_margin="5dp"
+            android:layout_height="35dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/search"
+            android:id="@+id/bSearch"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/green"
+            android:layout_height="38dp"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:text="@string/load_all_reports"
+        android:textSize="13sp"
+        android:visibility="gone"
+        android:id="@+id/bLoadAllReports"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/green"
+        android:background="@drawable/edit_bg"
+        android:layout_height="35dp"/>
+
+    <LinearLayout
+        android:id="@+id/noDataLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/no_data" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/andika"
+            android:text="@string/nothing_to_show_here" />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/post_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:elevation="6dp"
+    android:background="@drawable/edit_bg"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="@string/add_working_area"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:id="@+id/tvTitle"
+        android:fontFamily="@font/andika"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="@string/write_text_here"
+        android:id="@+id/edWorkingAreaName"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        android:paddingStart="10dp"
+        android:background="@drawable/edittext_bg"
+        android:layout_height="45dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:background="@drawable/edit_bg"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/white"
+        android:text="@string/save"
+        android:id="@+id/bAddArea"
+        android:textSize="16sp"
+        android:layout_margin="20dp"
+        android:layout_height="40dp"/>
+
+</LinearLayout>

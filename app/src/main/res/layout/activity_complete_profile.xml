@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.CompleteProfileActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/light_gray"
+            android:fontFamily="@font/andika"
+            android:hint="@string/aadhar_card_no"
+            android:inputType="textPassword"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/andika"
+            android:text="@string/project_name"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:id="@+id/spProjectName"
+            android:background="@color/light_gray"
+            android:layout_height="40dp">
+        </Spinner>
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="15sp"
+            android:visibility="gone"
+            android:id="@+id/nameOnBank"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/light_gray"
+            android:fontFamily="@font/andika"
+            android:hint="@string/name_on_bank"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp" />
+        
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:id="@+id/bloodGroup"
+            android:visibility="gone"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/light_gray"
+            android:fontFamily="@font/andika"
+            android:hint="@string/blood_group_optional"
+            android:inputType="text"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:visibility="gone"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/light_gray"
+            android:fontFamily="@font/andika"
+            android:id="@+id/bankName"
+            android:hint="@string/bank_name"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/light_gray"
+            android:textSize="15sp"
+            android:visibility="gone"
+            android:id="@+id/accountNumber"
+            android:fontFamily="@font/andika"
+            android:hint="@string/account_number"
+            android:inputType="number"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/light_gray"
+            android:visibility="gone"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:id="@+id/ifscCode"
+            android:fontFamily="@font/andika"
+            android:hint="@string/ifsc_code"
+            android:inputType="textEmailAddress"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/andika"
+            android:text="@string/Continue"
+            android:id="@+id/bContinue"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

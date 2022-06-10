@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.UploadDocuments">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="15sp"
+            android:id="@+id/nameOnBank"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/light_gray"
+            android:fontFamily="@font/andika"
+            android:hint="@string/name_on_bank"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp" />
+<!--
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="15sp"
+            android:id="@+id/panCardNumber"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/light_gray"
+            android:fontFamily="@font/andika"
+            android:hint="Par Card Number"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp" />-->
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:id="@+id/bloodGroup"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/light_gray"
+            android:fontFamily="@font/andika"
+            android:hint="@string/blood_group_optional"
+            android:inputType="text"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/light_gray"
+            android:fontFamily="@font/andika"
+            android:id="@+id/bankName"
+            android:hint="@string/bank_name"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/light_gray"
+            android:textSize="15sp"
+            android:id="@+id/accountNumber"
+            android:fontFamily="@font/andika"
+            android:hint="@string/account_number"
+            android:inputType="number"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/light_gray"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:id="@+id/ifscCode"
+            android:fontFamily="@font/andika"
+            android:hint="@string/ifsc_code"
+            android:inputType="textEmailAddress"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/andika"
+            android:text="@string/aadhar_card_photo"
+            android:textSize="18sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/andika"
+                    android:text="@string/front"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:id="@+id/aadharCardFront"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@drawable/edit_bg"
+                    android:backgroundTint="@color/light_gray"
+                    android:src="@drawable/ic_add" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/andika"
+                    android:text="@string/back"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:id="@+id/aadharCardBack"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/edit_bg"
+                    android:backgroundTint="@color/light_gray"
+                    android:layout_height="120dp"
+                    android:src="@drawable/ic_add" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/andika"
+                    android:text="@string/pan_card_photo"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/andika"
+                    android:text="@string/front"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:id="@+id/panCardFront"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@drawable/edit_bg"
+                    android:backgroundTint="@color/light_gray"
+                    android:src="@drawable/ic_add" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:id="@+id/lockedView"
+                android:visibility="gone"
+                android:background="@color/light_gray2"
+                android:layout_height="match_parent"/>
+
+        </FrameLayout>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/edit_bg"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/andika"
+            android:text="@string/Continue"
+            android:id="@+id/bContinue"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+
+</ScrollView>

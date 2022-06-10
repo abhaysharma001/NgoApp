@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    tools:context=".activities.ProjectListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:id="@+id/searchLyt"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingStart="10dp"
+            android:hint="@string/project_name"
+            android:textSize="14sp"
+            android:id="@+id/edSearchProject"
+            android:background="@drawable/edit_bg"
+            android:layout_height="45dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:backgroundTint="@color/green"
+            android:text="@string/search"
+            android:id="@+id/bSearchProject"
+            android:layout_marginStart="10dp"
+            android:textSize="12sp"
+            android:background="@drawable/edit_bg"
+            android:layout_height="45dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:id="@+id/noDataLayout"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:src="@drawable/no_data"
+            android:layout_height="110dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/andika"
+            android:text="@string/nothing_to_show_here"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/rvProjectList"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

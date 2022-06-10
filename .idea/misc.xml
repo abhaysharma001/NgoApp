@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../Library/Android/sdk/platforms/android-31/data/res/layout/simple_spinner_item.xml" value="0.1" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/drawable/ic_add.xml" value="0.53125" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/drawable/image_background.xml" value="0.53125" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/activity_add_case_history.xml" value="0.12708333333333333" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/activity_add_event.xml" value="0.264" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/activity_attendence.xml" value="0.6" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/activity_be_avolenteer.xml" value="0.6" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/activity_case_history.xml" value="0.12708333333333333" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/activity_events.xml" value="0.12708333333333333" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/activity_gallery.xml" value="0.12708333333333333" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/activity_home.xml" value="0.12708333333333333" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/activity_login.xml" value="0.6" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/activity_my_project_list.xml" value="0.6" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/activity_open_fragments.xml" value="0.305" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/activity_project_list.xml" value="0.2" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/activity_register.xml" value="0.6" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/activity_view_attendance.xml" value="0.6" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/activity_working_area_info.xml" value="0.4354166666666667" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/add_slider_bottom_sheet.xml" value="0.6" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/bottom_sheet_for_admin.xml" value="0.6" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/events_layout.xml" value="0.2972222222222222" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/fragment_add_slider.xml" value="0.4" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/fragment_admin.xml" value="0.4" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/fragment_assign_sub_admin.xml" value="0.4" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/fragment_create_sub_admin.xml" value="0.536" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/gallery_item_lyt.xml" value="0.176" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/image_slider_item_layout.xml" value="0.6" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/project_item_list.xml" value="0.6" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/repoting_layout.xml" value="0.4354166666666667" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/rv_add_slider_layout.xml" value="0.5633423180592992" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/slider_and_text_layout.xml" value="0.4354166666666667" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/sub_admin_layout.xml" value="0.6" />
+        <entry key="..\:/FreeLancing Projects/NGOApp/app/src/main/res/layout/working_area_item_layout.xml" value="0.4354166666666667" />
+        <entry key="app/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_event.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_list.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_list_24.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_pen.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_view.xml" value="0.137" />
+        <entry key="app/src/main/res/layout/activity_about_us.xml" value="0.2692307692307692" />
+        <entry key="app/src/main/res/layout/activity_add_case_history.xml" value="0.23645833333333333" />
+        <entry key="app/src/main/res/layout/activity_add_child_progress.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_add_event.xml" value="0.23645833333333333" />
+        <entry key="app/src/main/res/layout/activity_add_post.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_add_project_request.xml" value="0.5675" />
+        <entry key="app/src/main/res/layout/activity_add_student.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_add_suggestions.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_apply_leave.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_attendence.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_be_avolenteer.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_case_history.xml" value="0.23645833333333333" />
+        <entry key="app/src/main/res/layout/activity_child_list.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_complete_profile.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_edit_project.xml" value="0.5675" />
+        <entry key="app/src/main/res/layout/activity_events.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_gallery.xml" value="0.23645833333333333" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_leave_list.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_my_project_list.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_notifications.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_open_fragments.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_our_approach.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_our_story.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_project_list.xml" value="0.23645833333333333" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_rewards.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_send_admin_message.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_send_report.xml" value="0.23645833333333333" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_trusties.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_upload_documents.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/activity_view_attendance.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_view_child_profile.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_view_frontline_worker_list.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_view_street_coordinator_list.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_view_user_profile.xml" value="0.45161290322580644" />
+        <entry key="app/src/main/res/layout/activity_view_user_reporting.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_worker_requests.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_working_area_info.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/activity_working_areas.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/add_dialog_lyt.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/add_slider_bottom_sheet.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/attendance_lyt.xml" value="0.23645833333333333" />
+        <entry key="app/src/main/res/layout/bottom_sheet_delete_proj.xml" value="0.5675" />
+        <entry key="app/src/main/res/layout/bottom_sheet_for_admin.xml" value="0.5675" />
+        <entry key="app/src/main/res/layout/child_list_item_layout.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/drawer_menu_layout.xml" value="0.4708333333333333" />
+        <entry key="app/src/main/res/layout/events_layout.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/fragment_add_slider.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/fragment_admin.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_assign_sub_admin.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/fragment_create_sub_admin.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/fragment_front_line_worker.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/fragment_project_cordinator.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/fragment_public.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/fragment_street_cordinator.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/front_line_worker_layout.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/gallery_item_lyt.xml" value="0.23645833333333333" />
+        <entry key="app/src/main/res/layout/image_slider_item_layout.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/image_view_reporting.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/image_view_show.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/leave_item_layout.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/notification_item_lyt.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/post_preview_layout.xml" value="0.63" />
+        <entry key="app/src/main/res/layout/project_item_list.xml" value="0.5675" />
+        <entry key="app/src/main/res/layout/repoting_layout.xml" value="0.465" />
+        <entry key="app/src/main/res/layout/reward_item_layout.xml" value="0.23645833333333333" />
+        <entry key="app/src/main/res/layout/rv_add_slider_layout.xml" value="0.465" />
+        <entry key="app/src/main/res/layout/slider_and_text_layout.xml" value="0.465" />
+        <entry key="app/src/main/res/layout/student_level_list_item_layout.xml" value="0.465" />
+        <entry key="app/src/main/res/layout/sub_admin_layout.xml" value="0.465" />
+        <entry key="app/src/main/res/layout/update_time_front_line_worker.xml" value="0.465" />
+        <entry key="app/src/main/res/layout/verify_user_item_layout.xml" value="0.465" />
+        <entry key="app/src/main/res/layout/working_area_item_layout.xml" value="0.465" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

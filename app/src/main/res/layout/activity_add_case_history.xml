@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".activities.AddCaseHistoryActivity">
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:text="@string/enter_case_name"
+        android:textColor="@color/black"
+        android:fontFamily="@font/andika"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/edName"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/light_gray"
+        android:background="@drawable/edit_bg"
+        android:layout_height="45dp"/>
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:text="@string/description"
+        android:textColor="@color/black"
+        android:fontFamily="@font/andika"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/edDescription"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/light_gray"
+        android:background="@drawable/edit_bg"
+        android:layout_height="45dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/andika"
+        android:text="@string/add_photos" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light_gray">
+
+                <ImageView
+                    android:id="@+id/bAddImages"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_add" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/rvImages"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:id="@+id/bAddCaseHistory"
+        android:text="@string/add"
+        android:background="@drawable/edit_bg"
+        android:fontFamily="@font/andika"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/green"
+        android:layout_height="45dp"/>
+
+
+
+</LinearLayout>
